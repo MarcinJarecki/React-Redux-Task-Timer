@@ -1,7 +1,3 @@
-// import { List, Map } from 'immutable';
-
-// const init = List([]);
-
 export default (state = [], action) => {
     switch (action.type) {
         case 'ADD_TASK':

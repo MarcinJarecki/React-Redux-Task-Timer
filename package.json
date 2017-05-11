@@ -2,7 +2,7 @@
   "name": "todo-test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://marcinjarecki.github.io/React-Redux-Task-Timer",
+  "homepage": "http://react-redux-task-timer.surge.sh/",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "immutable": "^3.8.1",
