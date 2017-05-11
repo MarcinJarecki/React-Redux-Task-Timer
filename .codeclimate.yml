@@ -1,8 +1,3 @@
-# This is a sample .codeclimate.yml configured for Engine analysis on Code
-# Climate Platform. For an overview of the Code Climate Platform, see here:
-# http://docs.codeclimate.com/article/300-the-codeclimate-platform
-
-# Under the engines key, you can configure which engines will analyze your repo.
 engines:
   csslint:
     enabled: true
@@ -24,4 +19,4 @@ ratings:
 exclude_paths:
 - node_modules/**
 - public/**
-- tests/**/*
+- test/**/*
