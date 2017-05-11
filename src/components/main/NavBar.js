@@ -63,7 +63,7 @@ class NavBar extends Component {
     }
 
     componentDidMount = () => {
-        if (this.props.taskList.lenght >0 && this.state.isAuthenticated) {
+        if (this.props.taskList.length >0 && this.state.isAuthenticated) {
             if (this.props.taskList[0].finishTime === 0){
                 this.renewTimer(this.props.taskList[0]);
             }
