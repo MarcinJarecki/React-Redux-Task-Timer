@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  height: 100%; 
+}
+.App-hero-image {
+  background: url(./images/hero-image.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%; 
+  margin-bottom: 10px;
+}
+
+.App-div {
+  height: 100%; 
+}
+
+.panel-top-padding {
+  margin-top: 20px;  
+}
+
+.table-delete-button { 
+    padding-top: 15px;
+    text-align: left;
+}
+
+
+
+
