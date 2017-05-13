@@ -7,7 +7,7 @@ class InfoPanel extends Component{
 
         return(
             <Grid>            
-                <Row  className="show-grid panel-top-padding">
+                <Row  className="show-grid panel-top-padding fixed-footer">
                     <Col sm={4} md={4}><Panel>{loermIpsum}</Panel></Col>
                     <Col sm={4} md={4}><Panel>{loermIpsum}</Panel></Col>
                     <Col sm={4} md={4}><Panel>{loermIpsum}</Panel></Col>

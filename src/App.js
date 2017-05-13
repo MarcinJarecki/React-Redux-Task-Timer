@@ -59,7 +59,7 @@ class App extends Component {
 
   render() {
     return (      
-          <div className="App">         
+          <div className="App fixed-footer">         
               <NavBar setAuthCookies={this.setAuthCookies} setAuthStatus={this.setAuthStatus} isAuthenticated={this.state.isAuthenticated}/>
               <Routes isAuthenticated={this.state.isAuthenticated}/>
               <Footer />

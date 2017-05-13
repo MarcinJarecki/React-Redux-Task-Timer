@@ -81,7 +81,7 @@ class TaskList extends Component {
         };
         return (           
             <Grid>
-                <Row className='table-delete-button'>
+                <Row className='table-delete-button fixed-footer'>
                    <Col>                     
                     <BootstrapTable data={this.state.taskList} cellEdit={ cellEditProp } 
                                     selectRow={ selectRowProp } deleteRow={ true } 
