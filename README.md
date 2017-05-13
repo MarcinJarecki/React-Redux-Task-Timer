@@ -3,6 +3,8 @@
 
 [Live demo app](http://react-redux-task-timer.surge.sh)
 
+[![Code Climate](https://codeclimate.com/github/MarcinJarecki/React-Redux-Task-Timer/badges/gpa.svg)](https://codeclimate.com/github/MarcinJarecki/React-Redux-Task-Timer)
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 ### Command
