@@ -5,7 +5,7 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as taskActions from './../../actions/taskList';
 
-class NavBar extends Component {
+export class NavBar extends Component {
     constructor(props) {
         super(props);
          

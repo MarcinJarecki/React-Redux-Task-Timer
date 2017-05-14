@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {mount, shallow} from 'enzyme';
 import sinon from 'sinon';
-import App from './App.js';
+import TaskList from './TaskList.js';
+import {BootstrapTable, TableHeaderColumn} from 'react-bootstrap-table';
 import { Provider } from 'react-redux';
 import configureMockStore from 'redux-mock-store';
 
@@ -14,7 +15,7 @@ function setup() {
 
     const wrapper = shallow(
         <Provider store={mockStore}>    
-            <App {...props} />
+            <TaskList {...props} />
         </Provider>
     )
 
@@ -30,11 +31,13 @@ describe('should be have <App>', ()=>{
 
      beforeEach(()=> {
         wrapperInstance = setup().wrapper;
+        wrapper = wrapperInstance.find(TaskList);
     })
 
-    it('Should has <App> component', ()=>{
+    it('Should has <TaskList> component', ()=>{
         expect(
-            wrapperInstance.find(App).length
+            wrapper.length
         ).toEqual(1);
     });
+
 })

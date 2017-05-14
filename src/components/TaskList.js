@@ -6,7 +6,7 @@ import { bindActionCreators } from 'redux';
 import * as taskActions from './../actions/taskList';
 import '../App.css';
 
-class TaskList extends Component {
+export class TaskList extends Component {
 
     constructor(props) {
     super(props);
